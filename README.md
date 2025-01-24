@@ -12,7 +12,6 @@ Dalam project ini, diberikan skenario sebuah supermarket yang akan membuat siste
     ```
 2. Customer bisa cek detail barang yang diinput sudah benar.
     ```python
-<<<<<<< HEAD
     check_order()
     ```
 3. Jika ternyata ada kesalahan dalam memasukkan nama item atau jumlah item atau harga item tetapi tidak ingin menghapus itemnya, customer bisa melakukan
@@ -38,48 +37,44 @@ Dalam project ini, diberikan skenario sebuah supermarket yang akan membuat siste
    reset_transaction()
    ```
 6. Menghitung total belanja yang sudah dibeli. Sistem juga akan otomatis memberikan diskon dengan ketentuan harga minimum pembelian
-=======
+    ```python
        check_order()
     ```
 3. Jika ternyata ada kesalahan dalam memasukkan nama item atau jumlah item atau harga item tetapi tidak ingin menghapus itemnya, customer bisa melakukan
     a. Update nama item
-        ```python
-        update_item_name([<old_name>, <new_name>])
-        ```
+   ```python
+   update_item_name([<old_name>, <new_name>])
+   ```
     b. Update jumlah item
-        ```python
-        update_item_quantity([<item_name>, <new_qty>])
-        ```
+   ```python
+   update_item_quantity([<item_name>, <new_qty>])
+   ```
     c. Update harga item
-        ```python
-        update_item_price([<item_name>, <new_price>])
-        ```
+   ```python
+   update_item_price([<item_name>, <new_price>])
+   ```
 4. Jika batal membeli item belanjaan, customer bisa melakukan
     a. Menghapus salah satu item
-        ```python
-        delete_item([<item_name>])
-        ```
+   ```python
+   delete_item([<item_name>])
+   ```
     b. Langsung menghapus semua transaksi atau reset transaksi
-        ```python
-        reset_transaction()
-        ```
+   ```python
+   reset_transaction()
+   ```
 5. Menghitung total belanja yang sudah dibeli. Sistem juga akan otomatis memberikan diskon dengan ketentuan harga minimum pembelian
->>>>>>> a56205844306922dc53a425db3da82712e3430b5
     ```python
        total_price()
     ```
     
 ## Alur Program (Flowchart)
-![Flowchart](https://github.com/user-attachments/assets/cf148b8c-058d-497b-92c0-07fc89c47884)
-
-
+![Flowchart](https://github.com/user-attachments/assets/f94813e4-d224-4acf-9e1c-c32846ad8a01)
 
 ## Hasil Test Case
 
 1. Penambahan Item
 
 ```bash
-<<<<<<< HEAD
 PS F:\Talitha\Kuliah dan lain-lain\Pacmann.ai_Data Analyst Class\GIT\Final Project> python project_cashier.py
 =======
 PS F:\Talitha\Kuliah dan lain-lain\Pacmann.ai_Data Analyst Class\GIT> python project_cashier.py
@@ -141,7 +136,7 @@ Enter Task Number : 2
 ```
 
 3. Mengoreksi input yang salah
-    - Update nama
+- Update nama
 ```bash
 ------------------------------------------------------------
 WELCOME TO PACMANN SUPERMARKET
@@ -177,7 +172,7 @@ Item has been updated!
 ╘══════╧════════════════╧════════════╧══════════════╛
 ```
 
-    - Update quantity
+- Update quantity
 ```bash
 ------------------------------------------------------------
 WELCOME TO PACMANN SUPERMARKET
@@ -213,7 +208,7 @@ Item has been updated!
 ╘══════╧════════════════╧════════════╧══════════════╛
 ```
 
-    - Update price
+- Update price
 ```bash
 ------------------------------------------------------------
 WELCOME TO PACMANN SUPERMARKET
@@ -332,4 +327,3 @@ All items successfully deleted!
 =======
 Price: 32000.0
 ```
->>>>>>> a56205844306922dc53a425db3da82712e3430b5
