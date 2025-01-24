@@ -76,9 +76,6 @@ Dalam project ini, diberikan skenario sebuah supermarket yang akan membuat siste
 
 ```bash
 PS F:\Talitha\Kuliah dan lain-lain\Pacmann.ai_Data Analyst Class\GIT\Final Project> python project_cashier.py
-=======
-PS F:\Talitha\Kuliah dan lain-lain\Pacmann.ai_Data Analyst Class\GIT> python project_cashier.py
->>>>>>> a56205844306922dc53a425db3da82712e3430b5
 ------------------------------------------------------------
 WELCOME TO PACMANN SUPERMARKET
 ------------------------------------------------------------
