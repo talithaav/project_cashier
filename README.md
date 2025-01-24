@@ -38,7 +38,7 @@ Dalam project ini, diberikan skenario sebuah supermarket yang akan membuat siste
    ```
 6. Menghitung total belanja yang sudah dibeli. Sistem juga akan otomatis memberikan diskon dengan ketentuan harga minimum pembelian
     ```python
-       check_order()
+    check_order()
     ```
 3. Jika ternyata ada kesalahan dalam memasukkan nama item atau jumlah item atau harga item tetapi tidak ingin menghapus itemnya, customer bisa melakukan
     a. Update nama item
@@ -64,7 +64,7 @@ Dalam project ini, diberikan skenario sebuah supermarket yang akan membuat siste
    ```
 5. Menghitung total belanja yang sudah dibeli. Sistem juga akan otomatis memberikan diskon dengan ketentuan harga minimum pembelian
     ```python
-       total_price()
+    total_price()
     ```
     
 ## Alur Program (Flowchart)
@@ -100,7 +100,6 @@ Item successfully added!
 
 Item Name: Ayam 
 Quantity: 3
-<<<<<<< HEAD
 Price: Rp 32000.0
 ```
 
@@ -324,6 +323,4 @@ WELCOME TO PACMANN SUPERMARKET
 Enter Task Number : 5
 All items successfully deleted!
 ```
-=======
-Price: 32000.0
-```
+
