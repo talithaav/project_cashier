@@ -4,11 +4,10 @@ from tabulate import tabulate
 class Transaction:
     
     def __init__(self):
-        self.item_dict = dict()
+        self.item_dict = {}
         
     def add_item(self):
-        """Function to add items by inputting the name, quantity, and price for each item.
-        """
+        """Function to add items by inputting the name, quantity, and price for each item."""
         
         item_name = input("Input Item Name: ")
         item_qty = int(input("Input Item Quantity: "))
@@ -17,11 +16,10 @@ class Transaction:
         self.item_dict.update({item_name : [item_qty, price_per_item]})
         
         print("\nItem successfully added!\n")
-        print(f"Item Name: {item_name} \nQuantity: {int(item_qty)}\nPrice: Rp {float(price_per_item)}\n")
+        print(f"Item Name: {item_name} \nQuantity: {item_qty}\nPrice: Rp {price_per_item:.2f}\n")
         
     def print_item_list(self):
-        """Function to show all items along with their quantity and price in tabulate.
-        """
+        """Function to show all items along with their quantity and price in tabulate."""
         
         index =[]
         table = []
@@ -78,11 +76,10 @@ class Transaction:
         # self.menu()
 
     def edit_order(self):
-        """This function will guide user for several inputs regarding editing incorrect inputs.
-        """
+        """This function will guide user for several inputs regarding editing incorrect inputs."""
         
         while True:
-            edit = input("Specify the column you want to edit (*name/quantity/price)"):.lower()
+            edit = input("Specify the column you want to edit (*name/quantity/price):").lower()
             if edit in ['name', 'quantity', 'price']:
                 break
             else:
@@ -192,8 +189,7 @@ class Transaction:
         return self.item_dict
     
     def reset_transaction(self):
-        """Function to delete all orders that have been added.
-        """
+        """Function to delete all orders that have been added."""
         
         self.item_dict.clear()
         
@@ -227,8 +223,7 @@ class Transaction:
         print(f"TOTAL PRICE: Rp {total:,.2f} \nDISCOUNT: {discount} \nFINAL PRICE: Rp {final_price:,.2f}")
         
     def menu(self):
-        """Function to display menu list.
-        """
+        """Function to display menu list."""
         
         while True:
             print("-"*60)
