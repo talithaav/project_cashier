@@ -320,3 +320,7 @@ WELCOME TO PACMANN SUPERMARKET
 Enter Task Number : 5
 All items successfully deleted!
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> 57efead0bea051cfd611b3c8a2eed89dc5fbaee5
